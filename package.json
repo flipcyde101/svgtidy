@@ -1,0 +1,34 @@
+{
+  "name": "svgtidy",
+  "version": "0.1.0",
+  "description": "Zero-dependency SVG security and quality auditor, optimizer, and React/Svelte/Vue/HTML component generator",
+  "type": "module",
+  "bin": {
+    "svgtidy": "./bin/svgtidy.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "svg",
+    "optimizer",
+    "audit",
+    "security",
+    "react",
+    "svelte",
+    "vue",
+    "icons",
+    "cli"
+  ],
+  "license": "MIT"
+}
